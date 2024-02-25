@@ -1,0 +1,106 @@
+/* Контент */
+a{
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.list-container {
+  display: inline-block;
+  border: solid 0.5px;
+  padding-right: 20px;
+
+}
+
+.list-container p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.img-container {
+  float: right;
+  padding: 5px;
+  border-style: solid;
+  border-radius: 0.5px;
+  margin-left: 10px;
+}
+
+
+.img-container .images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-html5 {
+  max-width: 70px;
+
+}
+
+/* Навигация */
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: cadetblue;
+}
+
+.nav-container nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container nav ul li a {
+  display: block;
+  padding: 10px;
+  border-style: solid;
+  border-width: 0.5px;
+}
+
+@media (max-width: 900px) {
+  .nav-container {
+    flex-direction: column;
+  }
+}
+
+.page{
+  display: flex;
+  justify-content: center;
+}
+
+.general{
+  padding-left: 15px;
+}
+
+.header{
+  width: 14%;
+  background-color: grey;
+}
+
+.section{
+  width: 82%;
+
+}
+
+.left-panel ol{
+  list-style: none;
+  border-bottom-style: solid;
+  border-width: 0.5px;
+  margin: 10;
+  padding: 0;
+  padding-bottom: 10px;
+}
+
+.header div{
+  width: 100%;
+}
+
+.header img{
+  width: 200px;
+}
